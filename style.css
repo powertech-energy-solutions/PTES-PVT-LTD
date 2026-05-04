@@ -642,3 +642,19 @@ img {
 .contact-details .btn-primary:visited {
   color: #ffffff !important;
 }
+
+/* Hero background image */
+.hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 10, 20, 0.88) 0%,
+      rgba(5, 10, 20, 0.75) 45%,
+      rgba(7, 35, 58, 0.82) 100%
+    ),
+    url("assets/hero-pcb-repair.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
