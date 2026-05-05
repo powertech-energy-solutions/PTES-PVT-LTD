@@ -692,3 +692,21 @@ img {
   display: block;
   box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
 }
+
+/* Remove white space around About section image */
+#about .image-panel {
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 28px;
+  background: transparent !important;
+}
+
+/* Make PCB image fill the full box */
+#about .image-panel img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 28px;
+  display: block;
+}
